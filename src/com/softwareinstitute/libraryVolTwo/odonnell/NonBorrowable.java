@@ -1,6 +1,6 @@
 package com.softwareinstitute.libraryVolTwo.odonnell;
 
-public class NonBorrowable extends NonFiction{
+public class NonBorrowable extends NonFiction implements Audio{
 
     private int publishedYear;
     private String publisher;
@@ -43,4 +43,11 @@ public class NonBorrowable extends NonFiction{
     public void setScope(String scope) {
         this.scope = scope;
     }
+
+
+    @Override
+    public void narrator(String voice) {
+
+    }
 }
+
