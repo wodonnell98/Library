@@ -8,6 +8,8 @@ public class Main {
         NonBorrowable book2 = new NonBorrowable(2011, "Ladybird", "Prehistoric");
 
         book.setCreator("Blue Planet Aquarium");
+        book.setTitle("Encyclopedia Galactica");
+        //System.out.println(book.getTitle());
         System.out.println(book.getScope());
         System.out.println(book.getPublisher());
         System.out.println(book.getPublishedYear());
@@ -18,6 +20,8 @@ public class Main {
         System.out.println(book2.getPublisher());
         System.out.println(book2.getPublishedYear());
         System.out.println(book2.getCreator());
+
+        book.borrow("unable");
 
 
     }

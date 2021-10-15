@@ -19,6 +19,10 @@ public class NonBorrowable extends NonFiction implements Audio{
 
 ////////////////////////////////////////////////////////////
 
+    public void borrow(String unable){
+        System.out.println("You are " + unable + " to borrow this book.");
+    }
+
 
     public int getPublishedYear() {
         return publishedYear;
@@ -46,7 +50,7 @@ public class NonBorrowable extends NonFiction implements Audio{
 
 
     @Override
-    public void narrator(String voice) {
+    public void narration() {
 
     }
 }

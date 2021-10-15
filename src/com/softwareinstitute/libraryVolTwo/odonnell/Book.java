@@ -15,6 +15,8 @@ public abstract class Book {
 
 ////////////////////////////////////
 
+    public abstract void borrow(String unable);
+
 
     public String getCreator() {
         return creator;
